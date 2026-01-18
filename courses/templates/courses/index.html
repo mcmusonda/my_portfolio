@@ -1,2 +1,8 @@
-<h1>Hello World!</h1>
+<h1>Courses</h1>
 
+{% for course in courses.all %}
+
+{{ course.summary }}
+<br>
+
+{% endfor %}
